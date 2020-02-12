@@ -1,0 +1,100 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "3c9d1fd4-33d0-4810-a1c7-2bacda49a1f8": {
+        "id": "3c9d1fd4-33d0-4810-a1c7-2bacda49a1f8",
+        "parent": null,
+        "name": "SingaIndunilllllll",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "295bf13e-1822-4449-aa33-fa5da79820c2"
+        ],
+        "isRemovable": false,
+        "filePath": "SingaIndunilllllll"
+      },
+      "295bf13e-1822-4449-aa33-fa5da79820c2": {
+        "id": "295bf13e-1822-4449-aa33-fa5da79820c2",
+        "parent": "3c9d1fd4-33d0-4810-a1c7-2bacda49a1f8",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "SingaIndunilllllll/lambda.js",
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigapSoutheast1indunilcalteststgingindany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "rootNode": "3c9d1fd4-33d0-4810-a1c7-2bacda49a1f8",
+    "openFiles": [
+      "295bf13e-1822-4449-aa33-fa5da79820c2"
+    ],
+    "currentFileId": "295bf13e-1822-4449-aa33-fa5da79820c2",
+    "resources": {
+      "apigapSoutheast1indunilcalteststgingindany": {
+        "name": "apigapSoutheast1indunilcalteststgingindany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "ap-southeast-1",
+          "apiMode": 0,
+          "apiName": "indunilcal",
+          "endpointType": "REGIONAL",
+          "resourceMode": 0,
+          "resourceName": "test/stging/ind",
+          "resourcePath": "/test/stging/ind",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "qa",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "SingaIndunilllllll",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1581498400640
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "SingaIndunilllllll",
+      "url": "https://github.com/Indunil1992/SingaIndunilllllll"
+    }
+  }
+}
